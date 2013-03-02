@@ -1,0 +1,31 @@
+﻿Build started 9/23/2012 8:31:32 PM.
+     1>Project "C:\Users\Alex\Documents\Visual Studio 2012\Projects\CS 4411- Minithreads\Minithreads.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         nmake
+         
+         Microsoft (R) Program Maintenance Utility Version 11.00.50727.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         	cl.exe /nologo /MTd /W3 /Gm /EHsc /Zi /Od /D "WIN64" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"minithreads.pch" /Fo"" /Fd"" /FD /RTC1 /c start.c
+         start.c
+         	cl.exe /nologo /MTd /W3 /Gm /EHsc /Zi /Od /D "WIN64" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"minithreads.pch" /Fo"" /Fd"" /FD /RTC1 /c end.c
+         end.c
+         	cl.exe /nologo /MTd /W3 /Gm /EHsc /Zi /Od /D "WIN64" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"minithreads.pch" /Fo"" /Fd"" /FD /RTC1 /c random.c
+         random.c
+         	cl.exe /nologo /MTd /W3 /Gm /EHsc /Zi /Od /D "WIN64" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"minithreads.pch" /Fo"" /Fd"" /FD /RTC1 /c minithread.c
+         minithread.c
+         	cl.exe /nologo /MTd /W3 /Gm /EHsc /Zi /Od /D "WIN64" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"minithreads.pch" /Fo"" /Fd"" /FD /RTC1 /c machineprimitives_x86.c
+         machineprimitives_x86.c
+     1>machineprimitives_x86.c(19): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\sys/timeb.h(124) : see declaration of '_ftime64'
+         	ml64.exe /c /Zi /Zf machineprimitives_x86_64_asm.S
+         'ml64.exe' is not recognized as an internal or external command,
+         operable program or batch file.
+     1>NMAKE : fatal error U1077: 'ml64.exe' : return code '0x1'
+         Stop.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "nmake" exited with code 2.
+     1>Done Building Project "C:\Users\Alex\Documents\Visual Studio 2012\Projects\CS 4411- Minithreads\Minithreads.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.03

@@ -1,0 +1,13 @@
+﻿Build started 9/23/2012 8:38:19 PM.
+     1>Project "C:\Users\Alex\Documents\Visual Studio 2012\Projects\CS 4411- Minithreads\Minithreads.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         nmake
+         
+         Microsoft (R) Program Maintenance Utility Version 11.00.50727.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+     1>Done Building Project "C:\Users\Alex\Documents\Visual Studio 2012\Projects\CS 4411- Minithreads\Minithreads.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

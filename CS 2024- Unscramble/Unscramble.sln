@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unscramble", "Unscramble\Unscramble.vcxproj", "{6573CD64-46F1-47AD-8814-666C7434286A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6573CD64-46F1-47AD-8814-666C7434286A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6573CD64-46F1-47AD-8814-666C7434286A}.Debug|Win32.Build.0 = Debug|Win32
+		{6573CD64-46F1-47AD-8814-666C7434286A}.Release|Win32.ActiveCfg = Release|Win32
+		{6573CD64-46F1-47AD-8814-666C7434286A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS 2024- SimpleArray", "CS 2024- SimpleArray\CS 2024- SimpleArray.vcxproj", "{7AE49EE6-95F3-434F-BF1D-3E24247E7B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AE49EE6-95F3-434F-BF1D-3E24247E7B18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7AE49EE6-95F3-434F-BF1D-3E24247E7B18}.Debug|Win32.Build.0 = Debug|Win32
+		{7AE49EE6-95F3-434F-BF1D-3E24247E7B18}.Release|Win32.ActiveCfg = Release|Win32
+		{7AE49EE6-95F3-434F-BF1D-3E24247E7B18}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

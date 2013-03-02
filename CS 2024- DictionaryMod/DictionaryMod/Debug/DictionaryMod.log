@@ -1,0 +1,16 @@
+﻿Build started 12/9/2012 2:52:01 AM.
+     1>Project "C:\Users\Alex\Documents\Visual Studio 2012\Projects\DictionaryMod\DictionaryMod\DictionaryMod.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\alex\documents\visual studio 2012\projects\dictionarymod\dictionarymod\main.cpp(18): warning C4101: 'fsize' : unreferenced local variable
+     1>c:\users\alex\documents\visual studio 2012\projects\dictionarymod\dictionarymod\main.cpp(20): warning C4101: 'result' : unreferenced local variable
+     1>c:\users\alex\documents\visual studio 2012\projects\dictionarymod\dictionarymod\main.cpp(19): warning C4101: 'buffer' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Documents\Visual Studio 2012\Projects\DictionaryMod\Debug\DictionaryMod.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alex\Documents\Visual Studio 2012\Projects\DictionaryMod\Debug\DictionaryMod.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Documents\Visual Studio 2012\Projects\DictionaryMod\Debug\DictionaryMod.lib" /MACHINE:X86 Debug\main.obj
+         DictionaryMod.vcxproj -> C:\Users\Alex\Documents\Visual Studio 2012\Projects\DictionaryMod\Debug\DictionaryMod.exe
+     1>Done Building Project "C:\Users\Alex\Documents\Visual Studio 2012\Projects\DictionaryMod\DictionaryMod\DictionaryMod.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.62

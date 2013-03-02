@@ -1,0 +1,17 @@
+buffer.obj: buffer.c minithread.h machineprimitives.h defs.h synch.h
+end.obj: end.c defs.h
+interrupts.obj: interrupts.c defs.h interrupts_private.h interrupts.h \
+ machineprimitives.h
+machineprimitives.obj: machineprimitives.c defs.h minithread.h \
+ machineprimitives.h
+minithread.obj: minithread.c minithread.h machineprimitives.h defs.h \
+ queue.h synch.h
+queue.obj: queue.c queue.h
+random.obj: random.c
+sieve.obj: sieve.c minithread.h machineprimitives.h defs.h synch.h
+start.obj: start.c defs.h
+synch.obj: synch.c defs.h synch.h queue.h minithread.h \
+ machineprimitives.h
+test1.obj: test1.c minithread.h machineprimitives.h defs.h
+test2.obj: test2.c minithread.h machineprimitives.h defs.h
+test3.obj: test3.c minithread.h machineprimitives.h defs.h synch.h
